@@ -5,9 +5,9 @@ name: CI Push GHA
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  #push: #branch github.ref
+  push: #branch github.ref
   #  branches: [ main ]
-  #pull_request: #branch github.head_ref
+  pull_request: #branch github.head_ref
   #  branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
