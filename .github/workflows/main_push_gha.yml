@@ -34,7 +34,7 @@ jobs:
       ####################################
       - name: Building CxFlow image with mvn
         run: |
-          docker build -f ./Dockerfile . -t lgv_cxflow
+          #docker build -f ./Dockerfile . -t lgv_cxflow
           docker images
       
       ####################################
